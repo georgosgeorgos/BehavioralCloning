@@ -43,7 +43,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 I used two model architecture for this assignment: the NVIDIA architecture (defined into NVIDIA_model.py) and a Squeeze model with simple bypass (defined into SqueezeNet.py).
 
-The NVIDIA model is a classical architecture with convolutional layer and fully connected layers.
+The NVIDIA model is a classical architecture with convolutional layers and fully connected layers.
 The Squeeze model is composed only by convolutional layers and fire modules. 
 
 To reduce overfitting I applied dropout and data augmentation.
@@ -53,7 +53,6 @@ The model used an adam optimizer, so the learning rate was not tuned manually.
 #### Training Data
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road (in particular for the second track).
-
 
 ### Design
 
@@ -97,6 +96,6 @@ I then recorded the vehicle recovering from the left side and right sides of the
 Then I repeated this process on track two in order to get more data points.
 
 
-After the collection process, I had ~ 12k number of data points. I then preprocessed this data by cropping the images and normalizing.
+After the collection process, I had ~ 12k data points. I then preprocessed this data by cropping the images and normalizing.
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
