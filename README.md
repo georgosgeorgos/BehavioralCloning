@@ -99,3 +99,11 @@ Then I repeated this process on track two in order to get more data points.
 After the collection process, I had ~ 12k data points. I then preprocessed this data by cropping the images and normalizing.
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
+
+
+#### Reference
+
+
+[NVIDIA model](https://arxiv.org/pdf/1604.07316.pdf)
+[SqueezeNet model](https://arxiv.org/pdf/1602.07360.pdf)
+
