@@ -104,6 +104,6 @@ I finally randomly shuffled the data set and put 20% of the data into a validati
 #### Reference
 
 
-[NVIDIA model](https://arxiv.org/pdf/1604.07316.pdf)
+[NVIDIA model](https://arxiv.org/pdf/1604.07316.pdf)  
 [SqueezeNet model](https://arxiv.org/pdf/1602.07360.pdf)
 
